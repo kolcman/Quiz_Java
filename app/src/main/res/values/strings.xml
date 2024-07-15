@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="yes_button">Да</string>
+    <string name="right_answer">правильно</string>
+    <string name="wrong_answer">неправильно</string>
+    <string name="next_button">Следующий</string>
+    <string name="previous_button">Предыдущий</string>
+    <string name="no_button">Нет</string>
+</resources>
