@@ -6,4 +6,13 @@
     <string name="next_button">Следующий</string>
     <string name="previous_button">Предыдущий</string>
     <string name="no_button">Нет</string>
+    <string name="right_answers_label">Правильных ответов:</string>
+    <string name="add_new_question">Добавить свой вопрос</string>
+    <string name="add_your_question_label">Добавить вопрос:</string>
+    <string name="input_your_question_hint">Введите ваш вопрос:</string>
+    <string name="save_question_button">Сохранить</string>
+    <string name="radio_true">Верно</string>
+    <string name="radio_false">Не верно</string>
+    <string name="empty_question_toast">Вы не ввели вопрос!</string>
+    <string name="empty_radio_toast">Вы не выбрали вариант ни один вариант!</string>
 </resources>

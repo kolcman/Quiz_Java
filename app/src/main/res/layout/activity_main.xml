@@ -13,9 +13,10 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Simple text"
-        android:textSize="18sp"
         android:layout_marginBottom="8dp"
+        android:padding="12dp"
+        tools:text="Simple text"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,14 +51,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonNext"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:onClick="onClick"
-            android:text="@string/next_button" />
-
-        <Button
             android:id="@+id/buttonPrevious"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
@@ -65,6 +58,50 @@
             android:onClick="onClick"
             android:text="@string/previous_button" />
 
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="onClick"
+            android:text="@string/next_button" />
+
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewRightAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:text="@string/right_answers_label"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCountRightAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            tools:text="0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_question"
+        android:textAllCaps="true"
+        android:onClick="onClick"/>
+
 
 </LinearLayout>
