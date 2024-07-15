@@ -17,6 +17,8 @@
         android:padding="12dp"
         tools:text="Simple text"
         android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,6 +33,9 @@
             android:id="@+id/buttonYes"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_style"
+            android:backgroundTint="@color/dark_pastel_green"
+            android:textColor="@color/white"
             android:layout_margin="8dp"
             android:onClick="onClick"
             android:text="@string/yes_button" />
@@ -39,6 +44,9 @@
             android:id="@+id/buttonNo"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_style"
+            android:backgroundTint="@color/crimson"
+            android:textColor="@color/white"
             android:layout_margin="8dp"
             android:onClick="onClick"
             android:text="@string/no_button" />
@@ -55,6 +63,9 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:textColor="@color/white"
+            android:background="@drawable/round_style"
+            android:backgroundTint="@color/deep_purple"
             android:onClick="onClick"
             android:text="@string/previous_button" />
 
@@ -62,6 +73,9 @@
             android:id="@+id/buttonNext"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_style"
+            android:backgroundTint="@color/deep_purple"
+            android:textColor="@color/white"
             android:layout_margin="8dp"
             android:onClick="onClick"
             android:text="@string/next_button" />
@@ -80,6 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:padding="8dp"
+            android:textColor="@color/black"
             android:text="@string/right_answers_label"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -90,6 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:padding="8dp"
+            android:textColor="@color/black"
             tools:text="0"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -99,6 +115,10 @@
         android:id="@+id/buttonAddQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/round_style"
+        android:backgroundTint="@color/deep_purple"
+        android:textColor="@color/white"
         android:text="@string/add_new_question"
         android:textAllCaps="true"
         android:onClick="onClick"/>

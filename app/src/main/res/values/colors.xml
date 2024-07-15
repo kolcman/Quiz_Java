@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dark_pastel_green">#03C03C</color>
+    <color name="crimson">#EA101F</color>
+    <color name="deep_purple">#423189</color>
 </resources>
